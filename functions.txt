@@ -1,0 +1,58 @@
+void Move() : This function is responsible for the movement of the snake inside the borders. This function creates an illusion of snake moving cause of recursion, as it keeps clearing screen after adding a new position of the snake inside the borders.
+
+
+void Food() : This function generates food randomly inside the borders at the start of the game and everytime the snake eats the food.
+
+
+int Score() : This function displays the score and remaining life during the game.
+
+
+void Rules() : This function displays the rules of the snake game.
+
+
+void GotoXY(int x , int y) : This function sets the cursor at a certain x and y coordinate point on the screen. 
+
+
+void Bend() : When the user changes the direction of snake, this function generates the rest body of the snake from where the snake's direction is changed.
+
+
+void Border() : This function generates the borders in the snake game.
+
+
+void Delay() : This function delays the execution.
+
+
+void Down() : This function changes the direction of the snake to the down when the user presses the down arrow and only when the snake is moving in the leftward or rightward position.
+
+
+void Left() : This function changes the direction of the snake to the left when the user presses the left arrow and only when the snake is moving in the upward or downward position.
+
+
+void Up() : This function changes the direction of the snake to the up when the user presses the up arrow and only when the snake is moving in the leftward or rightward position.
+
+
+void Right() : This function changes the direction of the snake to the right when the user presses the right arrow and only when the snake is moving in the upward or downward position.
+
+
+void ExitGame() : This function ends the game when the snake touches itself or when the snake touches the borders.
+
+
+void load() : This function generates loading screen before the game.
+
+
+void print() : This function prints the main screen menu.
+
+
+void high_score() : This function stores the high score of the game. If the score of the game is higher than the score stored in the highscore.txt file then the score gets updated along with the player name.
+
+
+void game() : If the user selects "Play Game" option in the main menu the function gets called and this function calls other function which starts the game.
+
+
+void settings() : This function displays settings menu.
+
+
+void mspeed(): This function changes the movement speed of the snake in the game.
+
+
+void colour(): This function changes the text colors of the game.
